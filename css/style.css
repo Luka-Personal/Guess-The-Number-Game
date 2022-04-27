@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Press Start 2P", sans-serif;
+  background-color: #222;
+}
+/* CONTAINER */
+.container {
+  max-width: 145rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+/* ################# */
+/* HEADER */
+.header {
+  height: 40vh;
+  border-bottom: 0.7rem solid #fff;
+  position: relative;
+}
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+/* ################## */
+/* BUTTONS */
+.main-btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 1.6rem;
+  font-family: inherit;
+  padding: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+/* ################### */
+/* TEXT STUFF(GENERAL) */
+.paragraph {
+  color: #fff;
+  font-size: 1.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.heading-main {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+/* ################### */
+/* GAME SECTION */
+.game {
+  height: 60vh;
+}
+/* random number box */
+.random-number {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 7rem;
+  left: 50%;
+  top: 100%;
+  -webkit-transform: translate(-50%, -47%);
+  -ms-transform: translate(-50%, -47%);
+  transform: translate(-50%, -47%);
+}
+.game-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 20rem;
+  max-width: 100rem;
+  margin: 15rem auto 0;
+}
+/* left and right items(bottom part) */
+.input-left,
+.score-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 3rem;
+}
+.score-right {
+  -webkit-box-align: unset;
+  -ms-flex-align: unset;
+  align-items: unset;
+  width: 41rem;
+}
+.number-field {
+  background-color: #222;
+  border: 3px solid #fff;
+  color: #fff;
+  width: 25rem;
+  height: 15rem;
+  font-size: 6rem;
+  font-family: inherit;
+  padding: 2rem 2rem 2rem 5rem;
+  border-radius: 0.5rem;
+}
+.paragraph.big {
+  font-size: 2.2rem;
+  margin-bottom: 4rem;
+}
+/* ################### */
+/* ICONS */
+ion-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+/* ################### */

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game &mdash; Guess The Number</title>
+    <meta name="description" content="This game will have you mindblown." />
+    <link rel="manifest" href="/manifest/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="img/logo.png" />
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-main">
+          <div class="header-top">
+            <button class="main-btn again">Play Again!</button>
+            <p class="paragraph hint">(Between 1 and 10)</p>
+          </div>
+          <h2 class="heading-main">Guess My Number!</h2>
+          <div class="random-number">?</div>
+        </div>
+      </div>
+    </header>
+    <section class="game">
+      <div class="container">
+        <div class="game-main">
+          <div class="input-left">
+            <input type="number" class="number-field" />
+            <button class="main-btn check">Check!</button>
+          </div>
+          <div class="score-right">
+            <p class="paragraph big">
+              <ion-icon name="game-controller-outline"></ion-icon>
+              <span class="game-state">Start guessing...</span>
+            </p>
+            <p class="paragraph">
+              <ion-icon name="football-outline"></ion-icon> Score:
+              <span class="score">10</span>
+            </p>
+            <p class="paragraph">
+              <ion-icon name="medal-outline"></ion-icon>
+              Highscore: <span class="highscore">0</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
