@@ -4,7 +4,7 @@ Want to try out your luck? you are in right hands, check out the new game i just
 
 P.S my js is better each day
 
-Date Finished 4/28/2022 - Слава Украине!
+Date Finished 4/28/2022 - Слава Україні!
 
 Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
 
